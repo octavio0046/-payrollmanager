@@ -14,6 +14,10 @@ export class LoginComponent {
   navigateToHome() {
     this.router.navigate(['/resetpasword']);
   }
+
+  submit() {
+    this.router.navigate(['/listmanager']);
+  }
 }
 
 

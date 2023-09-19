@@ -9,15 +9,14 @@
 <body>
     <div class="container">
         <h2>Iniciar Sesión</h2>
-        <form action="#">
-            <label for="username">Usuario:</label>
-            <input type="text" id="username" name="username" required>
 
-            <label for="password">Contraseña:</label>
-            <input type="password" id="password" name="password" required>
-            <a routerLink="/resetpasword">Olvidaste tu clave?</a> <br><br>
-            <button type="submit">Iniciar Sesión</button>
-        </form>
+        <label for="username">Usuario:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password" name="password" required>
+        <a routerLink="/resetpasword">Olvidaste tu clave?</a> <br><br>
+        <button (click)="submit()">Iniciar Sesión</button>
     </div>
 
 
